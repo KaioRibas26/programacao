@@ -1,0 +1,24 @@
+Algoritmo "questão 4"
+// 
+//  
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 07/08/2020
+Var
+ KM, M, SP_RJ: REAL
+T, TM: REAL
+
+inicio
+SP_RJ <- 430
+ESCREVAL ("A QUANTOS KM/H VOCÊ IRÁ VIAJAR?: ")
+LEIA (KM)
+M <- KM/3.6
+ESCREVAL (KM, "KM CORRESPONDE A: ",M:4:2,"M/S")
+T <- SP_RJ / KM
+TM <- T ' 60
+ESCREVAL ("E VOCÊ LEVARA APROXIMADAMENTE ",T:4:2," HORAS PARA IR DE SP À RJ")
+
+
+
+
+fimalgoritmo
